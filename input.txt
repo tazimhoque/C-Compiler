@@ -1,0 +1,42 @@
+#include<stdio.h>
+#include<conio.h>
+int main()
+{
+	int a=2,b,c=10;
+    
+        b=a+c+8;
+       
+        float f = 10.2;
+        
+        f = 10.2 + a;
+
+        char ch='z';
+        ch = 'U';
+
+
+       int x = (a*2)/3;
+	a=0;
+
+
+       printf("f = %f",f);
+
+
+       f=f+f;
+
+       printf("f = %f",f);
+
+
+     printf("a=%d, b=%d, c=%d",a,b,c);
+     c=c+4;
+     printf("a=%d, b=%d, c=%d",a,b,c);
+     
+     printf("Character ch = %c\tFloat f=%f",ch,f);
+    
+     printf("Equation value x = %d",x);
+ 
+     printf("Helllow\nWorld\nEnjoy!");
+
+  return 0;
+
+       
+}
